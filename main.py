@@ -1,3 +1,13 @@
+import game_round
+import AI_interface
+
+# AI_I = AI_interface.TFT_AI()
+# AI_I.train()
+AI_interface.train_model()
+# error = game_round.human_game_logic()
+# if not error: print("An error occurred within the game")
+
+"""
 import champion
 from champion_functions import MILLIS
 
@@ -96,3 +106,4 @@ quit_simulations = tk.Button(master, text='Quit', command= lambda:  master.quit(
 quit_simulations.grid(row=4, column=3, sticky=tk.W, pady=4)
 
 tk.mainloop()
+"""
